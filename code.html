@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Outback Exchange</title>
+    <style>
+        .bg-gradient {
+            background: linear-gradient(45deg, #e0f7fa, #80deea, #ffffff);
+            opacity: 1;
+        }
+
+        .hero-section {
+            position: relative;
+            height: 300px;
+            background-color: #567af3;
+            color: #004d40;
+            text-shadow: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 5rem 1rem;
+        }
+
+        .main-content {
+            background-color: #e0f7fa;
+            min-height: 100vh;
+        }
+
+        .grid-2-cols {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .grid-3-cols {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #6284d1, #7081c5);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0, 77, 64, 0.2);
+            transition: transform 0.3s ease;
+            color: #ffffff;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-container {
+            position: relative;
+            height: 400px;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 15px 25px rgba(0, 77, 64, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .text-primary {
+            color: #004d40;
+            text-shadow: none;
+        }
+
+        .history-section {
+            background: linear-gradient(135deg, #886bd7, #3c287e);
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0, 77, 64, 0.2);
+        }
+
+        @media (min-width: 768px) {
+            .grid-2-cols {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .grid-3-cols {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            margin: 1rem;
+            background: linear-gradient(135deg, #5183b8, #504cc4);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+        }
+
+        .back-button::before {
+            content: "\2190"; /* Left arrow */
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="hero-section">
+            <div class="bg-gradient"></div>
+            <div class="container hero-content">
+                <h1 style="font-size: 3rem; font-weight: bold; margin-bottom: 1.5rem; color: #004d40;">About Outback Exchange</h1>
+                <p style="font-size: 1.5rem; opacity: 0.9; color: #004d40;">Connecting Communities Through Cultural Exchange</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="grid-2-cols">
+                <div>
+                    <h2 class="text-primary" style="font-size: 2.5rem; font-weight: bold; margin-bottom: 1.5rem; font-family: 'Arial', sans-serif;">Our Mission</h2>
+                    <p style="color: #004d40; margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.1rem;">
+                        At Outback Exchange, we believe in the transformative power of cultural exchange. Our mission is to create meaningful connections between communities worldwide, fostering understanding, growth, and lasting relationships through our carefully curated exchange programs.
+                    </p>
+                    <p style="color: #004d40; line-height: 1.8; font-size: 1.1rem;">
+                        We strive to provide life-changing experiences that broaden perspectives, develop leadership skills, and create global citizens ready to make a positive impact in their communities.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img src="C:/Users/Kirankumar/OneDrive/Desktop/h1.jpg">
+                </div>
+            </div>
+
+            <div class="grid-3-cols">
+                <div class="card">
+                    <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Cultural Understanding</h3>
+                    <p>
+                        We promote deep appreciation for different cultures, traditions, and perspectives through immersive experiences.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Personal Growth</h3>
+                    <p>
+                        Our programs are designed to develop leadership skills, independence, and global awareness in participants.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Community Impact</h3>
+                    <p>
+                        We empower participants to become active contributors to their communities and global society.
+                    </p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="text-primary" style="font-size: 1.875rem; font-weight: bold; margin-bottom: 1.5rem;">Personal Mentorship</h2>
+                <p style="color: #004d40; line-height: 1.7; max-width: 48rem; margin: 0 auto 2rem;">
+                    At the heart of our program lies meaningful personal connections. Our experienced mentors provide guidance, 
+                    support, and wisdom to participants throughout their journey, ensuring a transformative and enriching 
+                    exchange experience.
+                </p>
+                <div class="grid-3-cols">
+                    <div class="card">
+                        <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">One-on-One Support</h3>
+                        <p>
+                            Regular mentoring sessions ensure participants receive personalized guidance throughout their experience.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Cultural Navigation</h3>
+                        <p>
+                            Experienced mentors help participants navigate cultural differences and maximize learning opportunities.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Emotional Support</h3>
+                        <p>
+                            Our mentors provide a strong support system to help participants adjust and thrive in their new environment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="history-section">
+                <h2 class="text-primary" style="font-size: 1.875rem; font-weight: bold; margin-bottom: 1.5rem;">Our History</h2>
+                <p style="color: #ffffff; line-height: 1.7; margin-bottom: 1.5rem;">
+                    Founded with a vision to bridge cultural gaps and create lasting international connections, Outback Exchange has grown from a small regional initiative to a respected global exchange program provider.
+                </p>
+                <p style="color: #ffffff; line-height: 1.7;">
+                    Over the years, we have facilitated countless successful exchanges, creating a network of global citizens who continue to make positive impacts in their communities and beyond. Our commitment to excellence and cultural understanding has made us a trusted name in international exchange programs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a href="/" class="back-button">Back</a>
+    </div>
+</body>
+</html>
